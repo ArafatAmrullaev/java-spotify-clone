@@ -25,8 +25,8 @@ public class Song {
     @JoinColumn(name = "artist_id")
     private Artist artist;
 
-    @ManyToMany(mappedBy = "songs")
-    private List<Album> albums;
+//    @ManyToMany(mappedBy = "songs")
+//    private List<Album> albums;
 
     // Other song attributes and relationships
 
